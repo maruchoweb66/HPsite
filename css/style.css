@@ -214,6 +214,16 @@ td {
     margin-left: auto;
 }
 
+.specialexp{
+	background-color: #FA0555;
+	color: #ffffff;
+}
+
+.s-specialexp{
+	background-color: #F58735;
+	color: #ffffff;
+}
+
 /*================================================
  *  ヘッダー
  ================================================*/
