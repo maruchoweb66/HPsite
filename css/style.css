@@ -247,6 +247,44 @@ header {
 	margin:0;
 }
 
+.schedule {
+	font-size: 200%;
+}
+
+.saturday {
+	color: blue;
+}
+
+.sunday {
+	color: red;
+}
+
+.plan_type {
+	margin-bottom: 100px;
+}
+
+.plan_table {
+	display: table;
+	margin: 20px 0;
+}
+
+.plan_table-pic {
+	display: table-cell;
+	width: 20%;
+	padding-right: 2%;
+	vertical-align: top;
+}
+
+.plan_table-cap {
+	display: table-cell;
+	width: 78%;
+	vertical-align: top;
+}
+
+.twitter {
+	color: #00aced ;
+}
+
 /*================================================
  *  グローバルナビゲーション
  ================================================*/
