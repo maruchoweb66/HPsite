@@ -247,16 +247,38 @@ header {
 	margin:0;
 }
 
-.schedule{
+.schedule {
 	font-size: 200%;
 }
 
-.saturday{
+.saturday {
 	color: blue;
 }
 
-.sunday{
+.sunday {
 	color: red;
+}
+
+.plan_type {
+	margin-bottom: 100px;
+}
+
+.plan_table {
+	display: table;
+	margin: 20px 0;
+}
+
+.plan_table-pic {
+	display: table-cell;
+	width: 20%;
+	padding-right: 2%;
+	vertical-align: top;
+}
+
+.plan_table-cap {
+	display: table-cell;
+	width: 78%;
+	vertical-align: top;
 }
 
 /*================================================
