@@ -236,14 +236,7 @@ height : auto ;
 
 	.schedule {
     font-size: 100%;
-}
-
-.saturday {
-    color: blue;
-}
-
-.sunday {
-    color: red;
+		vertical-align: top;
 }
 
 .plan_type {
