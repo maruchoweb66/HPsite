@@ -234,16 +234,9 @@ height : auto ;
 	height:150px;
  	overflow:scroll;}
 
-	.schedule {
-    font-size: 100%;
-}
-
-.saturday {
-    color: blue;
-}
-
-.sunday {
-    color: red;
+.schedule {
+  font-size: 100%;
+	vertical-align: middle;
 }
 
 .plan_type {
