@@ -445,6 +445,7 @@ header {
 
 .bnr {
 	overflow:hidden;
+	margin-bottom: 10px;
 }
 .bnr ul {
 	overflow:hidden;
