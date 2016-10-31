@@ -137,6 +137,7 @@ p {
 
 img {
 	vertical-align:bottom;
+	height: auto ;
 }
 
 em {
@@ -224,10 +225,6 @@ td {
 	color: #ffffff;
 }
 
-img {
-max-width : 100% ;
-height : auto ;
-}
 
 .scroll {
 	width:100%;
