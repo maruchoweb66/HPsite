@@ -17,11 +17,21 @@
 	<script type="text/javascript" src="js/jquery.slidewide.js"></script>
 	<script>
 		$(function($) {
-			$('html').smoothscroll({
-				easing: 'swing',
-				speed: 1000,
-				margintop: 10
-			});
+			if ($('#spMenu').css('display') == 'block') {
+				$('html').smoothscroll({
+					easing: 'swing',
+					speed: 1000,
+					margintop: 10,
+					headerfix: $('header')
+				});
+			} else {
+				$('html').smoothscroll({
+					easing: 'swing',
+					speed: 1000,
+					margintop: 10,
+					headerfix: $('nav')
+				});
+			}
 			$('.totop').scrollshow({
 				position: 500
 			});
@@ -38,7 +48,7 @@
 				prevPosition: 0,
 				nextPosition: 0,
 				viewSlide: 1,
-				baseWidth: 940,
+				baseWidth: 980,
 				navImg: false,
 				navImgCustom: false,
 				navImgSuffix: ''
@@ -128,9 +138,6 @@
 			<li>
 				<a href="./group/index.html"><img src="images/photo02.jpg" alt=""></a>
 			</li>
-			<!--<li>
-				<a href="./student/index.html#bbq"><img src="images/photo04.jpg" alt=""></a>
-			</li>-->
 		</ul>
 		<div class="slidePrev"><img src="images/nav_prev.png" alt="前へ"></div>
 		<div class="slideNext"><img src="images/nav_next.png" alt="次へ"></div>
