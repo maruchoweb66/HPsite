@@ -241,21 +241,18 @@ td {
 }
 
 .plan_table {
-    display: table;
+		overflow: hidden;
     margin: 20px 0;
 }
 
 .plan_table-pic {
-    display: table-cell;
-    width: 20%;
-    padding-right: 2%;
-    vertical-align: top;
+		width: 20%;
+		padding-right: 15px;
+		float: left;
 }
 
 .plan_table-cap {
-    display: table-cell;
-    width: 78%;
-    vertical-align: top;
+		overflow: hidden;
 }
 
 .twitter {
