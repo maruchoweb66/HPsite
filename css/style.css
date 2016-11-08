@@ -270,6 +270,32 @@ td {
 	background:#F27900;
 }
 
+.button {
+	width: 25.3%;
+	margin: 4%;
+	float: left;
+	position: relative;
+	background-color: #F27900;
+	border-radius: 4px;
+	color: #fff;
+	line-height: 52px;
+	-webkit-transition: none;
+	transition: none;
+	box-shadow: 0 5px 0 #FF4F00;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+	text-align: center;
+	text-decoration: none;
+}
+.button:hover {
+	top: -4px;
+	box-shadow: 0 7px 0 #f7ba59;
+}
+.button:active {
+	top: 3px;
+	box-shadow: none;
+}
+
+
 
 /*================================================
  *  ヘッダー
