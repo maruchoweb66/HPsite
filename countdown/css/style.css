@@ -312,7 +312,10 @@ img.img-leader{
 }
 
 /* Clients Section */
-#tf-clients{
+#tf-clients {
+}
+
+#tf-clients .dayx{
 	background: url(../img/04.jpg);
 	background-size: cover;
 	background-position: center;
@@ -320,6 +323,13 @@ img.img-leader{
 	background-repeat: no-repeat;
 	color: #ffffff;
 }
+#tf-clients .dayy{
+	background: url(../img/05.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: #ffffff;}
 
 #tf-clients .overlay{
 	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
