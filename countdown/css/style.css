@@ -315,15 +315,15 @@ img.img-leader{
 #tf-clients {
 }
 
-#tf-clients .dayx{
-	background: url(../img/04.jpg);
+#tf-clients .day1{
+	background: url(../img/day1_bk.png);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	color: #ffffff;
 }
-#tf-clients .dayy{
+#tf-clients .day2{
 	background: url(../img/05.jpg);
 	background-size: cover;
 	background-position: center;
