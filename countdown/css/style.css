@@ -43,6 +43,12 @@ p.intro{
 	line-height: 24px;
 	font-family: 'Open Sans', sans-serif;
 }
+p.strong{
+	font-size: 48px;
+	margin: 30px 0 0;
+	line-height: 80px;
+	font-family: 'Open Sans', sans-serif;
+}
 a{ color: #FCAC45;}
 a:hover,
 a:focus{
@@ -329,15 +335,24 @@ img.img-leader{
 	background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	color: #ffffff;}
-	#tf-clients .day3{
-		background: url(../img/day3_bk.jpg);
-		background-size: cover;
-		background-position: center;
-		background-attachment: fixed;
-		background-repeat: no-repeat;
-		color: #ffffff;}
-
+	color: #ffffff;
+}
+#tf-clients .day3{
+	background: url(../img/day3_bk.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: #ffffff;
+}
+#tf-clients .day4{
+	background: url(../img/day4_bk.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: #ffffff;
+}
 #tf-clients .overlay{
 	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.8)), color-stop(17%,rgba(0,0,0,0.73)), color-stop(35%,rgba(0,0,0,0.66)), color-stop(62%,rgba(0,0,0,0.55)), color-stop(100%,rgba(0,0,0,0.4))); /* Chrome,Safari4+ */
