@@ -324,12 +324,19 @@ img.img-leader{
 	color: #ffffff;
 }
 #tf-clients .day2{
-	background: url(../img/05.jpg);
+	background: url(../img/day2_bk.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	color: #ffffff;}
+	#tf-clients .day3{
+		background: url(../img/day3_bk.jpg);
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		color: #ffffff;}
 
 #tf-clients .overlay{
 	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
