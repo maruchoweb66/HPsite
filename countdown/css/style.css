@@ -50,6 +50,13 @@ p.strong{
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 }
+p.centerintro{
+	font-size: 20px;
+	margin: 12px 0 0;
+	line-height: 24px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
 a{ color: #FCAC45;}
 a:hover,
 a:focus{
@@ -356,6 +363,14 @@ img.img-leader{
 }
 #tf-clients .day5{
 	background: url(../img/day5_bk.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: #ffffff;
+}
+#tf-clients .day6{
+	background: url(../img/day6_bk.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
