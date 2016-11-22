@@ -424,7 +424,9 @@ img.img-leader{
 #tf-clients p.haiku3{
 	text-align: right ;
 }
-
+#tf-clients p.maroon{
+	color: #800000
+}
 #clients .item{
     padding: 0;
     margin: 35px;
