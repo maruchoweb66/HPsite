@@ -43,15 +43,6 @@ p.intro{
 	line-height: 24px;
 	font-family: 'Open Sans', sans-serif;
 }
-p.haiku1{
-	text-align: left !important;
-}
-p.haiku2{
-	text-align: center !important;
-}
-p.haiku3{
-	text-align: right !important;
-}
 p.strong{
 	font-size: 48px;
 	margin: 30px 0 0;
@@ -414,7 +405,16 @@ img.img-leader{
 	background-attachment: fixed;
 }
 #tf-clients .sizai{
-	padding: 300px 0!important;
+	padding: 300px 0;
+}
+#tf-clients p.haiku1{
+	text-align: left ;
+}
+#tf-clients p.haiku2{
+	text-align: center ;
+}
+#tf-clients p.haiku3{
+	text-align: right ;
 }
 
 #clients .item{
