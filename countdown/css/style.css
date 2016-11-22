@@ -424,8 +424,24 @@ img.img-leader{
 #tf-clients p.haiku3{
 	text-align: right ;
 }
-#tf-clients p.maroon{
-	color: #800000
+#tf-clients .maroon{
+	color: #800000;
+	font-size: 36px;
+	font-weight: bold;
+	padding: 50px 0;
+	text-shadow:
+			0 2px 0 #fff,
+			2px 0 0 #fff,
+			0 -2px 0 #fff,
+			-2px 0 0 #fff,
+			-2px -2px 0 #fff,
+			2px -2px 0 #fff,
+			-2px 2px 0 #fff,
+			2px 2px 0 #fff
+			;
+}
+#tf-clients p.black{
+	color: #000000;
 }
 #clients .item{
     padding: 0;
