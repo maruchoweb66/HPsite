@@ -294,6 +294,7 @@ td {
 .warning{
 	border: 4px double red;
 	background-color: #FFC0CB;
+	margin-bottom:10px;
 }
 
 
