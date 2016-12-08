@@ -291,7 +291,11 @@ td {
 	top: 3px;
 	box-shadow: none;
 }
-
+.warning{
+	border: 4px double red;
+	background-color: #FFC0CB;
+	margin-bottom:10px;
+}
 
 
 /*================================================
